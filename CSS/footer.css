@@ -29,16 +29,14 @@
 }
 
 .email,
-.insta {
+.insta,
+.telefone {
   text-decoration: none;
   font-weight: bold;
   font-size: 2.25rem;
   line-height: 1.1;
   color: #fff;
   margin-bottom: 30px;
-}
-.telefone {
-  margin-top: 30px;
 }
 
 .footer-copy {
@@ -53,6 +51,12 @@
     gap: 40px;
   }
   .footer-contato li {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
+  }
+
+  .email,
+  .insta,
+  .telefone {
+    font-size: 1.25rem;
   }
 }
