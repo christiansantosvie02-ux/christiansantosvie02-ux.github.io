@@ -1,0 +1,40 @@
+body {
+  font-family: "Fira Sans", "Arial Narrow", Arial, sans-serif;
+  margin: 0px;
+  color: #121212;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0px;
+}
+
+ul {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.sub-tt {
+  font-size: 8rem;
+  word-break: break-all;
+  line-height: 1;
+  text-transform: uppercase;
+  max-width: 5ch;
+}
+
+@media (max-width: 800px) {
+  .sub-tt {
+    font-size: 4rem;
+    text-transform: capitalize;
+    max-width: initial;
+  }
+}
